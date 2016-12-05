@@ -1,7 +1,7 @@
 {
   "name": "got-char-names",
   "version": "1.1.0",
-  "description": "Game of Thrones Character Names",
+  "description": "Get Random Game of Thrones Character Names",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
