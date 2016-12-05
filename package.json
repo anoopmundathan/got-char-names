@@ -1,0 +1,27 @@
+{
+  "name": "got-char-names",
+  "version": "1.0.0",
+  "description": "Game of Thrones Character Names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoopmundathan/got-char-names.git"
+  },
+  "keywords": [
+    "got",
+    "random",
+    "words"
+  ],
+  "author": "Anoop Mundathan <anoop.mundathan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anoopmundathan/got-char-names/issues"
+  },
+  "homepage": "https://github.com/anoopmundathan/got-char-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
