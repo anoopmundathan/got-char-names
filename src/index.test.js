@@ -25,6 +25,15 @@ describe('Got Char Names', function() {
 			var randomItem = gotNames.random();
 			expect(gotNames.all).to.include(randomItem);
 		});
+
+		it('should return an array of random items if passed a number', function() {
+			var randomItems = gotNames.random(3);
+			expect(randomItems).to.have.length(3);
+
+			randomItems.forEach(function(item) {
+				expect(gotNames.all).to.include(item);
+			});
+		});
 	});
 
 });
