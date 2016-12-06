@@ -27,8 +27,8 @@ describe('Got Char Names', function() {
 		});
 
 		it('should return an array of random items if passed a number', function() {
-			var randomItems = gotNames.random(4);
-			expect(randomItems).to.have.length(4);
+			var randomItems = gotNames.random(5);
+			expect(randomItems).to.have.length(5);
 
 			randomItems.forEach(function(item) {
 				expect(gotNames.all).to.include(item);
